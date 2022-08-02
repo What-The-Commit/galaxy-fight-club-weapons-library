@@ -55,6 +55,18 @@ $body-bg: tint-color(black, 10%);
 @import "~bootstrap/scss/utilities/api";
 // scss-docs-end import-stack
 
+header {
+  position: sticky;
+}
+
+#gfc-logo-shield {
+  height: 70px;
+}
+
+#gfc-logo {
+  height: 54px;
+}
+
 @include media-breakpoint-down(xl) {
   #filter-container {
     flex-wrap: wrap;
