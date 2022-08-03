@@ -47,7 +47,7 @@ export default [{
     "Bound to Fighter": "x",
     "Name": "Candy Cain",
     "Tier": "Basic",
-    "Type": "Range",
+    "Type": "Ranged",
     "Range (1-6)": 1,
     "AA Type": "Flat cone",
     "AA Amount": 3,

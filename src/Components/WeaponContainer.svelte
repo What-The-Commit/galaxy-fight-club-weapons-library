@@ -135,7 +135,7 @@
                 for (const filterUltDamageType of $filterUltDamageTypes) {
                     matchesUltDamageType = (matchesUltDamageType || firstIteration) && weapon["Ult Type"].includes(filterUltDamageType.value);
                     firstIteration = false;
-                };
+                }
             }
 
             let matchesSpecialType = true;
@@ -218,12 +218,15 @@
 </script>
 
 <div id="weapon-container">
-    <div class="d-inline-flex gap-xl-4 gap-1" id="filter-container">
-        <input id="filter-name" class="form-control" type="text" placeholder="Filter name" bind:value={$filterName} name="search"/>
+    <div class="d-flex gap-xl-4 gap-1 filter-container mb-4">
+        <input id="filter-name" class="form-control" type="text" placeholder="Name" bind:value={$filterName} name="search"/>
 
         <Select items={filterTypeOptions} bind:value={$filterTypes} isMulti=true placeholder="Type" placeholderAlwaysShow=true />
         <Select items={filterTierOptions} bind:value={$filterTiers} isMulti=true placeholder="Tier" placeholderAlwaysShow=true />
         <Select items={filterAADamageTypeOptions} bind:value={$filterAADamageTypes} isMulti=true placeholder="AA Damage Type" placeholderAlwaysShow=true />
+    </div>
+
+    <div class="d-flex gap-xl-4 gap-1 filter-container">
         <Select items={filterUltDamageTypeOptions} bind:value={$filterUltDamageTypes} isMulti=true placeholder="Ult Damage Type" placeholderAlwaysShow=true />
         <Select items={filterSpecialTypeOptions} bind:value={$filterSpecialTypes} isMulti=true placeholder="Special Type" placeholderAlwaysShow=true />
 

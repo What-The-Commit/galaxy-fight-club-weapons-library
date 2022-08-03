@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 @import "~bootstrap/scss/mixins/banner";
 
 @include bsBanner("");
@@ -9,6 +11,7 @@
 @import "~bootstrap/scss/variables";
 
 $body-bg: tint-color(black, 10%);
+$font-family-sans-serif: 'Space Mono', sans-serif;
 
 
 @import "~bootstrap/scss/maps";
@@ -25,28 +28,10 @@ $body-bg: tint-color(black, 10%);
 @import "~bootstrap/scss/tables";
 @import "~bootstrap/scss/forms";
 @import "~bootstrap/scss/buttons";
-@import "~bootstrap/scss/transitions";
-@import "~bootstrap/scss/dropdown";
-@import "~bootstrap/scss/button-group";
-@import "~bootstrap/scss/nav";
-@import "~bootstrap/scss/navbar";
 @import "~bootstrap/scss/card";
-@import "~bootstrap/scss/accordion";
-@import "~bootstrap/scss/breadcrumb";
 @import "~bootstrap/scss/pagination";
-@import "~bootstrap/scss/badge";
-@import "~bootstrap/scss/alert";
-@import "~bootstrap/scss/progress";
-@import "~bootstrap/scss/list-group";
-@import "~bootstrap/scss/close";
-@import "~bootstrap/scss/toasts";
 @import "~bootstrap/scss/modal";
-@import "~bootstrap/scss/tooltip";
-@import "~bootstrap/scss/popover";
-@import "~bootstrap/scss/carousel";
-@import "~bootstrap/scss/spinners";
-@import "~bootstrap/scss/offcanvas";
-@import "~bootstrap/scss/placeholders";
+@import "~bootstrap/scss/progress";
 
 // Helpers
 @import "~bootstrap/scss/helpers";
@@ -54,6 +39,8 @@ $body-bg: tint-color(black, 10%);
 // Utilities
 @import "~bootstrap/scss/utilities/api";
 // scss-docs-end import-stack
+
+a {text-decoration: none;}
 
 header {
   position: sticky;
@@ -65,10 +52,12 @@ header {
 
 #gfc-logo {
   height: 54px;
+  margin-left: 18px;
+  margin-bottom: 4px;
 }
 
 @include media-breakpoint-down(xl) {
-  #filter-container {
+  .filter-container {
     flex-wrap: wrap;
   }
 }
@@ -107,5 +96,67 @@ header {
 }
 
 #filter-name {
-  max-width: 125px;
+  width: auto;
+}
+
+.filter-container > * {
+  flex-grow: 1;
+}
+
+.youtube-logo {
+  position: absolute;
+  top: 250px;
+  width: 100px;
+  right: 15px;
+  cursor: pointer;
+}
+
+#weapon-container-inner .card .row {
+  align-items: center;
+}
+
+#weapon-container-inner .card .icon {
+  max-width: 25%;
+}
+
+#weapon-container-inner .card .icon img {
+  width: 100%;
+}
+
+#weapon-container-inner .card .icon-range img {
+  width: 100%;
+  position: relative;
+  right: -4px;
+}
+
+#weapon-container-inner .card .text {
+  max-width: 75%;
+  text-align: right;
+}
+
+.scroll-to-top {
+  position: relative;
+}
+
+.btn-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+
+.btn-style {
+  background-color: $body-bg;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
 }
