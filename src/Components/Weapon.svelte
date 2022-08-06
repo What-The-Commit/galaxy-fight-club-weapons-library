@@ -52,7 +52,7 @@
 </script>
 
 <div class="card weapon-card" class:highlighted on:click={addOrRemoveToCompare}>
-    <img src="images/yt_logo_mono_light.png" alt="YouTube" class="youtube-logo" on:click={openVideo} />
+    <img class:bg-light={weapon["Bound to Fighter"] === 'x'} class:bg-opacity-75={weapon["Bound to Fighter"] === 'x'} class:rounded={weapon["Bound to Fighter"] === 'x'} src="images/yt_logo_mono_light.png" alt="YouTube" class="youtube-logo" on:click={openVideo} />
     <img class="card-img-top" style="cursor: pointer;" src="{weaponImage}" alt="{weapon.Name}" on:click={openVideo}>
     <div class="card-body border-bottom border-dark border-2">
         <h5 class="card-title text-nowrap overflow-hidden">{weapon.Name}{#if weapon["Bound to Fighter"] === 'x'}&nbsp;(Genesis){/if}</h5>
