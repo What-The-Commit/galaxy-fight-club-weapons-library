@@ -8,6 +8,9 @@
     import {readable, writable, derived} from "svelte/store";
     import type {Readable, Writable} from "svelte/store";
 
+    import {ComparableWeaponsStore} from "../stores/ComparableWeaponsStore";
+    import WeaponHighlighted from "./WeaponHighlighted.svelte";
+
     const allWeaponStore: Readable<IWeapon[]> = readable(weapons);
 
     const filterName: Writable<string> = writable('');
@@ -215,6 +218,57 @@
 
     let videoTitle: string = "";
     let videoSrc: string = "";
+
+    let highestStatsByWeaponName = {};
+
+    ComparableWeaponsStore.subscribe(function (weapons) { // update highest stats for each weapon
+       highestStatsByWeaponName = {};
+       let aaDamage, ultDamage, range;
+
+       let firstIteration = true;
+       for (const weapon of weapons) {
+           if (firstIteration) {
+               aaDamage = {name: weapon.Name, value: weapon["AA Damage"]};
+               ultDamage = {name: weapon.Name, value: weapon["Ult Damage"]};
+               range = {name: weapon.Name, value: weapon["Range (1-6)"]};
+
+               firstIteration = false;
+               continue;
+           }
+
+           if (aaDamage.value < weapon["AA Damage"]) {
+               aaDamage = {name: weapon.Name, value: weapon["AA Damage"]};
+           }
+
+           if (ultDamage.value < weapon["Ult Damage"]) {
+               ultDamage = {name: weapon.Name, value: weapon["Ult Damage"]};
+           }
+
+           if (range.value < weapon["Range (1-6)"]) {
+               range = {name: weapon.Name, value: weapon["Range (1-6)"]};
+           }
+       }
+
+       if (weapons.length !== 0) {
+            highestStatsByWeaponName[aaDamage.name] = ['aaDamage'];
+
+            if (highestStatsByWeaponName.hasOwnProperty(ultDamage.name)) {
+                highestStatsByWeaponName[ultDamage.name].push('ultDamage');
+            } else {
+                highestStatsByWeaponName[ultDamage.name] = ['ultDamage'];
+            }
+
+           if (highestStatsByWeaponName.hasOwnProperty(range.name)) {
+               highestStatsByWeaponName[range.name].push('range');
+           } else {
+               highestStatsByWeaponName[range.name] = ['range'];
+           }
+       }
+    });
+
+    function clearStore() {
+        ComparableWeaponsStore.set([])
+    };
 </script>
 
 <div id="weapon-container">
@@ -234,7 +288,25 @@
         <Select items={sortDirectionOptions} bind:value={$sortDirection} placeholder="Sort order" placeholderAlwaysShow=true />
     </div>
 
-    <div class="row row-cols-1 row-cols-xl-4 row-cols-sm-2 mt-4" id="weapon-container-inner">
+    {#if $ComparableWeaponsStore.length !== 0}
+    <div class="bg-light rounded-3 p-3 mt-4">
+        <h1 class="m-0 mb-2 float">Compare Weapons<button class="btn btn-outline-primary bg-dark border-white text-white float-end shadow-none" on:click={clearStore}>X</button></h1>
+        <div class="row row-cols-1 row-cols-xl-4 row-cols-sm-2 weapon-container-inner" id="weapon-container-comparable">
+            {#each $ComparableWeaponsStore as weapon (weapon.Name)}
+                <div class="col">
+                    <WeaponHighlighted
+                            weapon={weapon}
+                            highlightAADamage={highestStatsByWeaponName[weapon.Name] ? highestStatsByWeaponName[weapon.Name].includes('aaDamage') : false}
+                            highlightUltDamage={highestStatsByWeaponName[weapon.Name] ? highestStatsByWeaponName[weapon.Name].includes('ultDamage') : false}
+                            highlightRange={highestStatsByWeaponName[weapon.Name] ? highestStatsByWeaponName[weapon.Name].includes('range') : false}
+                    />
+                </div>
+            {/each}
+        </div>
+    </div>
+    {/if}
+
+    <div class="row row-cols-1 row-cols-xl-4 row-cols-sm-2 mt-4 weapon-container-inner">
     {#each $filteredWeaponStore as weapon (weapon.Name)}
         <div class="col mb-4">
         <Weapon weapon={weapon} bind:videoSrc={videoSrc} bind:videoTitle={videoTitle} />

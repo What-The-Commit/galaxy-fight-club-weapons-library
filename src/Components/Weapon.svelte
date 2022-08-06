@@ -1,4 +1,5 @@
 <script lang="ts">
+    import {ComparableWeaponsStore} from "../stores/ComparableWeaponsStore";
     import Modal from '../../node_modules/bootstrap/js/src/modal';
     import placeholderImage from "../../src/assets/placeholder.png";
     import type {IWeapon} from "../types/weapon.type";
@@ -25,9 +26,32 @@
         5: '83%',
         6: '100%',
     };
+
+    let highlighted = false;
+
+    function addOrRemoveToCompare(event: PointerEvent) {
+        if (event.target.className.includes('card-img-top')) { // ignore click on image/video
+            return;
+        }
+
+        const weaponIndex = $ComparableWeaponsStore.findIndex(function (weaponToAdd, weapon) {
+            return weaponToAdd.Name === weapon.Name;
+        }.bind(null, weapon));
+
+        if (weaponIndex === -1) {
+            ComparableWeaponsStore.set([...$ComparableWeaponsStore, weapon]);
+        }
+
+        if (weaponIndex !== -1 && highlighted) { // remove already added weapon aka toggle
+            $ComparableWeaponsStore.splice(weaponIndex, 1)
+            ComparableWeaponsStore.set($ComparableWeaponsStore);
+        }
+
+        highlighted = !highlighted;
+    }
 </script>
 
-<div class="card">
+<div class="card weapon-card" class:highlighted on:click={addOrRemoveToCompare}>
     <img src="images/yt_logo_mono_light.png" alt="YouTube" class="youtube-logo" on:click={openVideo} />
     <img class="card-img-top" style="cursor: pointer;" src="{weaponImage}" alt="{weapon.Name}" on:click={openVideo}>
     <div class="card-body border-bottom border-dark border-2">

@@ -12,6 +12,9 @@
 
 $body-bg: tint-color(black, 10%);
 $font-family-sans-serif: 'Space Mono', sans-serif;
+$card-border-color: none;
+
+$card-spacer-x: $spacer + 1;
 
 
 @import "~bootstrap/scss/maps";
@@ -111,25 +114,25 @@ header {
   cursor: pointer;
 }
 
-#weapon-container-inner .card .row {
+.weapon-container-inner .card .row {
   align-items: center;
 }
 
-#weapon-container-inner .card .icon {
+.weapon-container-inner .card .icon {
   max-width: 25%;
 }
 
-#weapon-container-inner .card .icon img {
+.weapon-container-inner .card .icon img {
   width: 100%;
 }
 
-#weapon-container-inner .card .icon-range img {
+.weapon-container-inner .card .icon-range img {
   width: 100%;
   position: relative;
   right: -4px;
 }
 
-#weapon-container-inner .card .text {
+.weapon-container-inner .card .text {
   max-width: 75%;
   text-align: right;
 }
@@ -159,4 +162,32 @@ header {
   justify-content: center;
   align-items: center;
   visibility: hidden;
+}
+
+.weapon-card {
+  cursor: pointer;
+}
+
+.weapon-card.bg-dark .progress-bar {
+  background-color: tint-color(black, 60%) !important;
+}
+
+.weapon-card:hover, .weapon-card.highlighted {
+  box-shadow: 0 0 15px 5px rgba(252,246,152,0.5);
+}
+
+#weapon-container-comparable .weapon-card, #weapon-container-comparable .weapon-card {
+  cursor: initial;
+}
+
+#weapon-container-comparable .weapon-card:hover, #weapon-container-comparable .weapon-card.highlighted {
+  box-shadow: none;
+}
+
+.icon.invert {
+  filter: invert(1);
+}
+
+.card-body .row.highlighted {
+  box-shadow: 0 0 15px 0 rgba(252,246,152,0.5);
 }
