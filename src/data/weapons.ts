@@ -12,7 +12,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/asTn18mbliw",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Dagger",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Dagger%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Sword",
@@ -27,7 +29,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/zw-hd1B5K70",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Sword",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Sword%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Pistol",
@@ -42,12 +46,14 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/1KMbSjTk9dQ",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Pistol",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Pistol%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Candy Cain",
     "Tier": "Basic",
-    "Type": "Ranged",
+    "Type": "Range",
     "Range (1-6)": 1,
     "AA Type": "Flat cone",
     "AA Amount": 3,
@@ -57,7 +63,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/RkqtgfCQ43w",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Candy%20Cain",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Candy+Cain%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Rapier/Needle",
@@ -72,7 +80,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/RabpGBiWVi4",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Rapier",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Rapier%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Caveman's Club",
@@ -87,7 +97,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/QMWq3Pbb-Wg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Caveman%27s%20Club",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Caveman%27s+Club%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Flowers Bouquet",
@@ -102,7 +114,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/dRxa94gVmzY",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Flowers%20Bouquet",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Flowers+Bouquet%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Battleaxe",
@@ -117,7 +131,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/SFs8D-OlLl4",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Battleaxe",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Battleaxe%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Walking Stick",
@@ -132,7 +148,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/W114MWGUAho",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Walking%20Stick",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Walking+Stick%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Electric Toothbrush",
@@ -147,7 +165,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/CamnpkhzbRw",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Electric%20toothbrush",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Electric+toothbrush%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Umbrella",
@@ -162,7 +182,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/ct-COfpNs1w",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Umbrella",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Umbrella%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Butterfly Net",
@@ -177,7 +199,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/RWjLryZW3z4",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Butterfly%20Net",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Butterfly+Net%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Flail",
@@ -192,7 +216,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/KUH-23SxtU8",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Flail",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Flail%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Boat Oar",
@@ -207,7 +233,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/owrfhtsKRto",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Boat%20Oar",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Boat+Oar%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Monkey Paw Staff",
@@ -222,7 +250,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/cFc9TD9muAg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Monkey%20Paw%20Staff",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Monkey+Paw+Staff%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Machine Gun",
@@ -237,7 +267,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/JkZxljN_M-k",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Machine%20Gun",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Machine+Gun%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Banana",
@@ -252,7 +284,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/0UreTWIy96Q",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Banana",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Banana%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Broomstick",
@@ -267,7 +301,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/NAwI_-A6rnk",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Broomstick",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Broomstick%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Nunchucks",
@@ -282,7 +318,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/kN9m6AL90l4",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Nunchucks",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Nunchucks%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Whip",
@@ -297,7 +335,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/rgRNtE6JP1Y",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Whip",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Whip%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Rubber Chicken",
@@ -312,7 +352,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/VSFcJdXWb7s",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Rubber%20Chicken",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Rubber+Chicken%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Bubble Gun",
@@ -327,7 +369,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/rSTb5HNo3Xk",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Bubble%20Gun",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Bubble+Gun%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Claws",
@@ -342,7 +386,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/kuqGTRbNxBQ",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Claws",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Claws%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Death Scythe",
@@ -357,7 +403,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/lYDpP-TvtfA",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Death%20Scythe",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Death+Scythe%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Space Gun",
@@ -372,7 +420,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/XTpR1zkP1Ug",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Space%20Gun",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Space+Gun%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Flamethrower",
@@ -387,7 +437,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/we8mZ5oMVt0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Flamethrower",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Flamethrower%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Plasma Sword",
@@ -402,7 +454,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/teuH6vlbSfM",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Plasma%20Sword",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Plasma+Sword%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Double voulge",
@@ -417,7 +471,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/EYu92RdobQM",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Double%20voulge",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Double+voulge%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Bitcoin",
@@ -432,7 +488,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/jmA0HjxQe4M",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Bitcoin",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Bitcoin%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Plasma Orbs",
@@ -447,7 +505,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/2IaVTi6_cdo",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Plasma%20Orbs",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Plasma+Orbs%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "x",
     "Name": "Heels",
@@ -462,7 +522,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/5hjrNt9xFFQ",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/collection/galaxy-fight-club?search[sortBy]=UNIT_PRICE&search[sortAscending]=true&search[toggles][0]=BUY_NOW&search[stringTraits][0][name]=Weapon&search[stringTraits][0][values][0]=Heels",
+    "Looksrare": "https://looksrare.org/collections/0x3702f4C46785BbD947d59A2516ac1ea30F2BAbF2?filters=%7B%22attributes%22%3A%5B%7B%22traitType%22%3A%22Weapon%22%2C%22values%22%3A%5B%22Heels%22%5D%7D%5D%7D"
 }, {
     "Bound to Fighter": "",
     "Name": "Forty-five",
@@ -477,7 +539,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/i1J1uKpbVao",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/21001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Firearm",
@@ -492,7 +556,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/rCVKqNFOeMg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/21000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Pick",
@@ -507,7 +573,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/WF-zHCajarg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/11002",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Baseball Bat",
@@ -522,7 +590,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/sOFjVr8g0jw",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/11001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Axe",
@@ -537,7 +607,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/NeoyHx6a_Ic",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/11000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Cleaver",
@@ -552,7 +624,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/suAAKHztj-0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/12000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Hatchet",
@@ -567,7 +641,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/4erciqh0_yg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/12001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Mac-10",
@@ -582,7 +658,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/XEfuLQLTcPg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/22001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Revolver",
@@ -597,7 +675,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/tFm7THvvIsE",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/22003",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Harpoon",
@@ -612,7 +692,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/7UWdrSdn0u4",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/22000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Molotov Cocktail",
@@ -627,7 +709,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/Pz6e9lkUzoo",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/22002",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Water Cooler",
@@ -642,7 +726,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/Kg4oQjJr5kY",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/13000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Slug Shotgun",
@@ -657,7 +743,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/7eSsE4ZQsLc",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23006",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Shuriken Blades",
@@ -672,7 +760,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/P8ab7RhOv7k",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23007",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Switch Blade",
@@ -687,7 +777,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/1tW4rMANKbU",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23010",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "FAL",
@@ -702,7 +794,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/MltREaH97LY",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Remington Shotgun",
@@ -717,7 +811,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/y9OzQZcO3EE",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23003",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Shuriken",
@@ -732,7 +828,9 @@ export default [{
     "Special Amount": "1,5",
     "Special Type": "Speed Boost in seconds",
     "Video": "https://youtu.be/SjLzT2UVWtg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23008",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Butcher Knife",
@@ -747,7 +845,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/M_kd7gDuQn0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23009",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Sawed-off Shotgun",
@@ -762,7 +862,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/Fu7UZ3gtHZM",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23004",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Scout",
@@ -777,7 +879,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/FVMoG05STn0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23005",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "OG's Boxing Gloves",
@@ -792,7 +896,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/b0N3uz6Plt0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/13001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "M4",
@@ -807,7 +913,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/u3105b2f76Y",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23002",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Galil",
@@ -822,7 +930,9 @@ export default [{
     "Special Amount": 1450,
     "Special Type": "Flat Heal",
     "Video": "https://youtu.be/Fbl5SKti-5Y",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/23001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Dragon Scimitar",
@@ -837,7 +947,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/dqdkYNSwYI0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/14000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Staff of Light",
@@ -852,7 +964,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/zQLyLo9uu6w",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/14001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Gnawing Hunger",
@@ -867,7 +981,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/C34osJFfug0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/24001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "The Barber",
@@ -882,7 +998,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/qTPY_XMc9AE",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/24004",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Golden Child",
@@ -897,7 +1015,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/9dSJ95_YNj8",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/24002",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Pump and Dump",
@@ -912,7 +1032,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/co7qQ0nSJgM",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/24003",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Candy Gun",
@@ -927,7 +1049,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/DDtBZCcxGec",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/24000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Doctore's Crossbow",
@@ -942,7 +1066,9 @@ export default [{
     "Special Amount": 55,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/Uca9Qn2uw-8",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/24005",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Katana",
@@ -957,7 +1083,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/zAd1wcH_1ks",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/14002",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Wakizashi",
@@ -972,7 +1100,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/DbplnYsKC64",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/15000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Hammer of Gods",
@@ -987,7 +1117,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/AugPhAw80_0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/15001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Echo Chamber",
@@ -1002,7 +1134,9 @@ export default [{
     "Special Amount": 60,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/jXGsxWeiug4",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/25000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Lion's Roar",
@@ -1017,7 +1151,9 @@ export default [{
     "Special Amount": 60,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/3kbbc5UUmcg",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/25004",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Ion Cannon",
@@ -1032,7 +1168,9 @@ export default [{
     "Special Amount": 60,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/RDnKgjPMkB0",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/25003",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Retribution",
@@ -1047,7 +1185,9 @@ export default [{
     "Special Amount": 60,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/dq6hNjpjUOA",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/25005",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Guzzy",
@@ -1062,7 +1202,9 @@ export default [{
     "Special Amount": 60,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/j2P28cV88kk",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/25002",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Flare Gun",
@@ -1077,7 +1219,9 @@ export default [{
     "Special Amount": 60,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/agPsVrg-gcs",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/25001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Asteroid Pink",
@@ -1092,7 +1236,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/J0zr5AsRbuw",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/16000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Asteroid Green",
@@ -1107,7 +1253,9 @@ export default [{
     "Special Amount": 65,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/DVmx0-DGWzY",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/26001",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Asteroid Brown",
@@ -1122,7 +1270,9 @@ export default [{
     "Special Amount": 65,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/lSIa-vcVCAs",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/26000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Magnet",
@@ -1137,7 +1287,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/uvbM_oazFGY",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/17000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Slingshot",
@@ -1152,7 +1304,9 @@ export default [{
     "Special Amount": 65,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/4Xw7uVb16WY",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/27000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "Divine Blade",
@@ -1167,7 +1321,9 @@ export default [{
     "Special Amount": "",
     "Special Type": "Dash",
     "Video": "https://youtu.be/ICzgDA4WT8A",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/18000",
+    "Looksrare": ""
 }, {
     "Bound to Fighter": "",
     "Name": "The Cube",
@@ -1182,5 +1338,7 @@ export default [{
     "Special Amount": 65,
     "Special Type": "Shield Block in %",
     "Video": "https://youtu.be/KukALwZ98B4",
-    "Image": ""
+    "Image": "",
+    "Opensea": "https://opensea.io/assets/matic/0xcbc964dd716f07b4965b4526e30541a66f414ccf/28000",
+    "Looksrare": ""
 }]

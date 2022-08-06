@@ -13,4 +13,6 @@ export interface IWeapon {
     "Special Type":     string;
     Video:              string;
     Image:              string;
+    Opensea:            string;
+    Looksrare:          string;
 }

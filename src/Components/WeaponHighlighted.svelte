@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col icon invert">
                 {#if weapon["Special Type"].includes('Shield')}
                     <img src="icons/shield.png" alt="Shield Block" title="Shield Block" />
@@ -79,6 +79,16 @@
                     {weapon["Special Amount"]} sec
                 {/if}
             </div>
+        </div>
+        <div class="row sell-icons text-center">
+            <div class="col">
+                <a href="{weapon.Opensea}" target="_blank"><img src="images/opensea_logo_transparent.png" alt="OpenSea" title="OpenSea" /></a>
+            </div>
+            {#if weapon.Looksrare !== ''}
+                <div class="col">
+                    <a href="{weapon.Looksrare}" target="_blank"><img src="images/looksrare-white.png" alt="LooksRare" title="LooksRare" /></a>
+                </div>
+            {/if}
         </div>
     </div>
 </div>

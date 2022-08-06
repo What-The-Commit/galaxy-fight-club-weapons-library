@@ -184,10 +184,14 @@ header {
   box-shadow: none;
 }
 
-.icon.invert {
+.invert {
   filter: invert(1);
 }
 
 .card-body .row.highlighted {
   box-shadow: 0 0 15px 0 rgba(252,246,152,0.5);
+}
+
+.sell-icons img {
+  width: 50px;
 }
